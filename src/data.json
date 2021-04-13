@@ -1,0 +1,235 @@
+{
+    "categories": {
+        "gas": {
+            "description": "Gas",
+            "icon": "gas-pump"
+        },
+        "restaurants": {
+            "description": "Restaurants",
+            "icon": "utensils"
+        },
+        "groceries": {
+            "description": "Groceries",
+            "icon": "shopping-basket"
+        },
+        "costco": {
+            "description": "Costco (only Visa accepted)",
+            "icon": "warehouse"
+        },
+        "entertainment": {
+            "description": "Entertainment",
+            "icon": "ticket-alt"
+        },
+        "flights": {
+            "description": "Flights",
+            "icon": "plane"
+        },
+        "hotels": {
+            "description": "Hotels",
+            "icon": "hotel"
+        },
+        "airbnb": {
+            "description": "Airbnb",
+            "icon": [
+                "fab",
+                "fa-airbnb"
+            ]
+        },
+        "shopping": {
+            "description": "Shopping",
+            "icon": "shopping-cart"
+        },
+        "department-stores": {
+            "description": "Dept. Stores",
+            "icon": "shopping-bag"
+        },
+        "amazon": {
+            "description": "Amazon",
+            "icon": [
+                "fab",
+                "fa-amazon"
+            ]
+        },
+        "rideshare": {
+            "description": "Rideshare",
+            "icon": "car"
+        },
+        "uber": {
+            "description": "Uber",
+            "icon": [
+                "fab",
+                "fa-uber"
+            ]
+        },
+        "lyft": {
+            "description": "Lyft",
+            "icon": [
+                "fab",
+                "fa-lyft"
+            ]
+        },
+        "other": {
+            "description": "Other",
+            "icon": "hand-peace"
+        }
+    },
+
+    "display": [
+        "restaurants", 
+        "groceries",
+        "costco",
+        "flights",
+        "hotels", 
+        "airbnb",
+        "gas", 
+        "rideshare",
+        "department-stores",
+        "amazon",
+        "other"
+    ],
+
+    "cards": [
+        {
+            "name": "citi-premier",
+            "description": "Citi Premier",
+            "categories": {
+                "gas": 0.03,
+                "restaurants": 0.03,
+                "groceries": 0.03,
+                "flights": 0.03,
+                "hotels": 0.03,
+                "airbnb": 0.03,
+                "costco": 0.00,
+                "other": 0.01
+            },
+            "redemptionBonus": 1,
+            "annualFee": 95
+        },
+        {
+            "name": "chase-sapphire-preferred",
+            "description": "Chase Sapphire Preferred",
+            "categories": {
+                "restaurants": 0.02,
+                "groceries": 0.02,
+                "flights": 0.02,
+                "hotels": 0.02,
+                "airbnb": 0.02,
+                "rideshare": 0.02,
+                "other": 0.01
+            },
+            "redemptionBonus": 1.25,
+            "annualFee": 95
+        },
+        {
+            "name": "amex-bluecash-everyday",
+            "description": "Amex BlueCash Everyday",
+            "categories": {
+                "groceries": 0.03,
+                "gas": 0.02,
+                "department-stores": 0.02,
+                "costco": 0.00,
+                "other": 0.01
+            },
+            "redemptionBonus": 1,
+            "annualFee": 0
+        },
+        {
+            "name": "discover-it",
+            "description": "Discover It",
+            "categories": {
+                "gas": 0.0125,
+                "restaurants": 0.0125,
+                "groceries": 0.0125,
+                "amazon": 0.0125,
+                "costco": 0.00,
+                "other": 0.01
+            },
+            "redemptionBonus": 1,
+            "annualFee": 0
+        },
+        {
+            "name": "chase-sapphire-reserve",
+            "description": "Chase Sapphire Reserve",
+            "categories": {
+                "restaurants": 0.03,
+                "groceries": 0.03,
+                "flights": 0.03,
+                "hotels": 0.03,
+                "airbnb": 0.03,
+                "rideshare": 0.03,
+                "other": 0.01
+            },
+            "credits": [
+                {
+                    "categories": ["groceries", "flights", "hotels", "airbnb", "rideshare", "gas"],
+                    "maxAmount": 300
+                }
+            ],
+            "redemptionBonus": 1.5,
+            "annualFee": 550
+        },
+        {
+            "name": "citi-double-cash",
+            "description": "Citi Double Cash",
+            "categories": {
+                "costco": 0.00,
+                "other": 0.02
+            },
+            "redemptionBonus": 1,
+            "annualFee": 0
+        },
+        {
+            "name": "citi-costco-anywhere-visa",
+            "description": "Citi Costco Anywhere",
+            "categories": {
+                "gas": 0.04,
+                "restaurants": 0.03,
+                "flights": 0.03,
+                "hotels": 0.03,
+                "airbnb": 0.03,
+                "costco": 0.02,
+                "other": 0.01
+            },
+            "redemptionBonus": 1,
+            "annualFee": 0
+        },
+        {
+            "name": "amex-gold",
+            "description": "American Express Gold",
+            "categories": {
+                "groceries": 0.04,
+                "restaurants": 0.04,
+                "flights": 0.03,
+                "other": 0.01,
+                "costco": 0.00
+            },
+            "credits": [
+                {
+                    "categories": ["restaurants"],
+                    "maxAmount": 120
+                }
+            ],
+            "redemptionBonus": 1,
+            "annualFee": 250
+        },
+        {
+            "name": "amex-marriot-bonvoy-brilliant",
+            "description": "Marriott Bonvoy Brilliant Amex",
+            "categories": {
+                "hotels": 0.048,
+                "restaurants": 0.024,
+                "flights": 0.024,
+                "costco": 0.00,
+                "other": 0.016
+            },
+            "credits": [
+                {
+                    "categories": ["hotels"],
+                    "maxAmount": 300
+                }
+            ],
+            "redemptionBonus": 1,
+            "annualFee": 450
+        }
+    ]
+}
